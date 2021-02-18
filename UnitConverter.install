@@ -1,0 +1,25 @@
+{
+    "name": "UnitConverter",
+    "speakableName": "unit converter",
+    "version": "1.0.15",
+    "icon": "fas fa-temperature-high",
+    "category": "information",
+    "author": "Lazza",
+    "maintainers": [
+        "Psycho",
+        "Phillipp"
+    ],
+    "desc": "Convert temperature between F and C and other units like meters to miles etc. Also convert temperature to oven gas mark",
+    "aliceMinVersion": "1.0.0-b3",
+    "systemRequirements": [
+        ""
+    ],
+    "pipRequirements": [
+        "pip3 install pint"
+    ],
+    "conditions": {
+        "lang": [
+            "en"
+        ]
+    }
+}

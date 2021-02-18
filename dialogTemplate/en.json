@@ -1,0 +1,2212 @@
+{
+	"skill": "OvenTemperatureConversion",
+	"slotTypes": [
+		{
+			"name": "Unit",
+			"matchingStrictness": null,
+			"automaticallyExtensible": true,
+			"useSynonyms": true,
+			"values": [
+				{
+					"value": "GasMark",
+					"synonyms": [
+						"gas mark"
+					]
+				},
+				{
+					"value": "millimeters",
+					"synonyms": [
+						"millimeterss"
+					]
+				},
+				{
+					"value": "centimeters",
+					"synonyms": [
+						"centimeterss"
+					]
+				},
+				{
+					"value": "meter",
+					"synonyms": [
+						"meters"
+					]
+				},
+				{
+					"value": "second",
+					"synonyms": [
+						"seconds"
+					]
+				},
+				{
+					"value": "ampere",
+					"synonyms": [
+						"amperes"
+					]
+				},
+				{
+					"value": "candela",
+					"synonyms": [
+						"candelas"
+					]
+				},
+				{
+					"value": "gram",
+					"synonyms": [
+						"grams"
+					]
+				},
+				{
+					"value": "mole",
+					"synonyms": [
+						"moles"
+					]
+				},
+				{
+					"value": "kelvin",
+					"synonyms": [
+						"kelvins"
+					]
+				},
+				{
+					"value": "radian",
+					"synonyms": [
+						"radians"
+					]
+				},
+				{
+					"value": "bit",
+					"synonyms": [
+						"bits"
+					]
+				},
+				{
+					"value": "count",
+					"synonyms": [
+						"counts"
+					]
+				},
+				{
+					"value": "yocto",
+					"synonyms": [
+						"yoctos"
+					]
+				},
+				{
+					"value": "zepto",
+					"synonyms": [
+						"zeptos"
+					]
+				},
+				{
+					"value": "atto",
+					"synonyms": [
+						"attos"
+					]
+				},
+				{
+					"value": "femto",
+					"synonyms": [
+						"femtos"
+					]
+				},
+				{
+					"value": "pico",
+					"synonyms": [
+						"picos"
+					]
+				},
+				{
+					"value": "nano",
+					"synonyms": [
+						"nanos"
+					]
+				},
+				{
+					"value": "micro",
+					"synonyms": [
+						"micros"
+					]
+				},
+				{
+					"value": "milli",
+					"synonyms": [
+						"millis"
+					]
+				},
+				{
+					"value": "centi",
+					"synonyms": [
+						"centis"
+					]
+				},
+				{
+					"value": "deci",
+					"synonyms": [
+						"decis"
+					]
+				},
+				{
+					"value": "deca",
+					"synonyms": [
+						"decas"
+					]
+				},
+				{
+					"value": "hecto",
+					"synonyms": [
+						"hectos"
+					]
+				},
+				{
+					"value": "kilo",
+					"synonyms": [
+						"kilos"
+					]
+				},
+				{
+					"value": "mega",
+					"synonyms": [
+						"megas"
+					]
+				},
+				{
+					"value": "giga",
+					"synonyms": [
+						"gigas"
+					]
+				},
+				{
+					"value": "tera",
+					"synonyms": [
+						"teras"
+					]
+				},
+				{
+					"value": "peta",
+					"synonyms": [
+						"petas"
+					]
+				},
+				{
+					"value": "exa",
+					"synonyms": [
+						"exas"
+					]
+				},
+				{
+					"value": "zetta",
+					"synonyms": [
+						"zettas"
+					]
+				},
+				{
+					"value": "yotta",
+					"synonyms": [
+						"yottas"
+					]
+				},
+				{
+					"value": "kibi",
+					"synonyms": [
+						"kibis"
+					]
+				},
+				{
+					"value": "mebi",
+					"synonyms": [
+						"mebis"
+					]
+				},
+				{
+					"value": "gibi",
+					"synonyms": [
+						"gibis"
+					]
+				},
+				{
+					"value": "tebi",
+					"synonyms": [
+						"tebis"
+					]
+				},
+				{
+					"value": "pebi",
+					"synonyms": [
+						"pebis"
+					]
+				},
+				{
+					"value": "exbi",
+					"synonyms": [
+						"exbis"
+					]
+				},
+				{
+					"value": "zebi",
+					"synonyms": [
+						"zebis"
+					]
+				},
+				{
+					"value": "yobi",
+					"synonyms": [
+						"yobis"
+					]
+				},
+				{
+					"value": "semi",
+					"synonyms": [
+						"semis"
+					]
+				},
+				{
+					"value": "sesqui",
+					"synonyms": [
+						"sesquis"
+					]
+				},
+				{
+					"value": "arc minute",
+					"synonyms": [
+						"arc minutes"
+					]
+				},
+				{
+					"value": "arc second",
+					"synonyms": [
+						"arc seconds"
+					]
+				},
+				{
+					"value": "milliarc second",
+					"synonyms": [
+						"milliarc seconds"
+					]
+				},
+				{
+					"value": "grade",
+					"synonyms": [
+						"grades"
+					]
+				},
+				{
+					"value": "mil",
+					"synonyms": [
+						"mils"
+					]
+				},
+				{
+					"value": "steradian",
+					"synonyms": [
+						"steradians"
+					]
+				},
+				{
+					"value": "square degree",
+					"synonyms": [
+						"square degrees"
+					]
+				},
+				{
+					"value": "baud",
+					"synonyms": [
+						"bauds"
+					]
+				},
+				{
+					"value": "byte",
+					"synonyms": [
+						"bytes"
+					]
+				},
+				{
+					"value": "angstrom",
+					"synonyms": [
+						"angstroms"
+					]
+				},
+				{
+					"value": "micron",
+					"synonyms": [
+						"microns"
+					]
+				},
+				{
+					"value": "fermi",
+					"synonyms": [
+						"fermis"
+					]
+				},
+				{
+					"value": "light year",
+					"synonyms": [
+						"light years"
+					]
+				},
+				{
+					"value": "astronomical unit",
+					"synonyms": [
+						"astronomical units"
+					]
+				},
+				{
+					"value": "parsec",
+					"synonyms": [
+						"parsecs"
+					]
+				},
+				{
+					"value": "nautical mile",
+					"synonyms": [
+						"nautical miles"
+					]
+				},
+				{
+					"value": "bohr",
+					"synonyms": [
+						"bohrs"
+					]
+				},
+				{
+					"value": "x unit Cu",
+					"synonyms": [
+						"x unit Cus"
+					]
+				},
+				{
+					"value": "x unit Mo",
+					"synonyms": [
+						"x unit Mos"
+					]
+				},
+				{
+					"value": "angstrom star",
+					"synonyms": [
+						"angstrom stars"
+					]
+				},
+				{
+					"value": "planck length",
+					"synonyms": [
+						"planck lengths"
+					]
+				},
+				{
+					"value": "metric ton",
+					"synonyms": [
+						"metric tons"
+					]
+				},
+				{
+					"value": "unified atomic mass unit",
+					"synonyms": [
+						"unified atomic mass units"
+					]
+				},
+				{
+					"value": "dalton",
+					"synonyms": [
+						"daltons"
+					]
+				},
+				{
+					"value": "grain",
+					"synonyms": [
+						"grains"
+					]
+				},
+				{
+					"value": "gamma mass",
+					"synonyms": [
+						"gamma masss"
+					]
+				},
+				{
+					"value": "carat",
+					"synonyms": [
+						"carats"
+					]
+				},
+				{
+					"value": "minute",
+					"synonyms": [
+						"minutes"
+					]
+				},
+				{
+					"value": "hour",
+					"synonyms": [
+						"hours"
+					]
+				},
+				{
+					"value": "day",
+					"synonyms": [
+						"days"
+					]
+				},
+				{
+					"value": "week",
+					"synonyms": [
+						"weeks"
+					]
+				},
+				{
+					"value": "fortnight",
+					"synonyms": [
+						"fortnights"
+					]
+				},
+				{
+					"value": "year",
+					"synonyms": [
+						"years"
+					]
+				},
+				{
+					"value": "month",
+					"synonyms": [
+						"months"
+					]
+				},
+				{
+					"value": "century",
+					"synonyms": [
+						"centurys"
+					]
+				},
+				{
+					"value": "millennium",
+					"synonyms": [
+						"millenniums"
+					]
+				},
+				{
+					"value": "eon",
+					"synonyms": [
+						"eons"
+					]
+				},
+				{
+					"value": "shake",
+					"synonyms": [
+						"shakes"
+					]
+				},
+				{
+					"value": "svedberg",
+					"synonyms": [
+						"svedbergs"
+					]
+				},
+				{
+					"value": "atomic unit of time",
+					"synonyms": [
+						"atomic unit of times"
+					]
+				},
+				{
+					"value": "gregorian year",
+					"synonyms": [
+						"gregorian years"
+					]
+				},
+				{
+					"value": "sidereal year",
+					"synonyms": [
+						"sidereal years"
+					]
+				},
+				{
+					"value": "tropical year",
+					"synonyms": [
+						"tropical years"
+					]
+				},
+				{
+					"value": "common year",
+					"synonyms": [
+						"common years"
+					]
+				},
+				{
+					"value": "leap year",
+					"synonyms": [
+						"leap years"
+					]
+				},
+				{
+					"value": "sidereal day",
+					"synonyms": [
+						"sidereal days"
+					]
+				},
+				{
+					"value": "sidereal month",
+					"synonyms": [
+						"sidereal months"
+					]
+				},
+				{
+					"value": "tropical month",
+					"synonyms": [
+						"tropical months"
+					]
+				},
+				{
+					"value": "synodic month",
+					"synonyms": [
+						"synodic months"
+					]
+				},
+				{
+					"value": "planck time",
+					"synonyms": [
+						"planck times"
+					]
+				},
+				{
+					"value" : "degC",
+					"synonyms": [
+						"Celsius",
+						"C"
+					]
+				},
+				{
+					"value" : "degF",
+					"synonyms": [
+						"Fahrenheit",
+						"F"
+					]
+				},
+				{
+					"value": "degree Rankine",
+					"synonyms": [
+						"degree Rankines"
+					]
+				},
+				{
+					"value": "degree Reaumur",
+					"synonyms": [
+						"degree Reaumurs"
+					]
+				},
+				{
+					"value": "barn",
+					"synonyms": [
+						"barns"
+					]
+				},
+				{
+					"value": "darcy",
+					"synonyms": [
+						"darcys"
+					]
+				},
+				{
+					"value": "hectare",
+					"synonyms": [
+						"hectares"
+					]
+				},
+				{
+					"value": "liter",
+					"synonyms": [
+						"liters",
+						"litre",
+						"litres"
+					]
+				},
+				{
+					"value": "cubic_centimeter",
+					"synonyms": [
+						"cubic_centimeters"
+					]
+				},
+				{
+					"value": "stere",
+					"synonyms": [
+						"steres"
+					]
+				},
+				{
+					"value": "hertz",
+					"synonyms": [
+						"hertzs"
+					]
+				},
+				{
+					"value": "revolutions per minute",
+					"synonyms": [
+						"revolutions per minutes"
+					]
+				},
+				{
+					"value": "revolutions per second",
+					"synonyms": [
+						"revolutions per seconds"
+					]
+				},
+				{
+					"value": "counts per second",
+					"synonyms": [
+						"counts per seconds"
+					]
+				},
+				{
+					"value": "wave number",
+					"synonyms": [
+						"wave numbers"
+					]
+				},
+				{
+					"value": "reciprocal centimeter",
+					"synonyms": [
+						"reciprocal centimeters"
+					]
+				},
+				{
+					"value": "knot",
+					"synonyms": [
+						"knots"
+					]
+				},
+				{
+					"value": "mile per hour",
+					"synonyms": [
+						"miles per hour"
+					]
+				},
+				{
+					"value": "kilometer per hour",
+					"synonyms": [
+						"kilometers per hour"
+					]
+				},
+				{
+					"value": "kilometer per second",
+					"synonyms": [
+						"kilometers per second"
+					]
+				},
+				{
+					"value": "meter per second",
+					"synonyms": [
+						"meters per second"
+					]
+				},
+				{
+					"value": "foot per second",
+					"synonyms": [
+						"feet per second"
+					]
+				},
+				{
+					"value": "galileo",
+					"synonyms": [
+						"galileos"
+					]
+				},
+				{
+					"value": "newton",
+					"synonyms": [
+						"newtons"
+					]
+				},
+				{
+					"value": "dyne",
+					"synonyms": [
+						"dynes"
+					]
+				},
+				{
+					"value": "force kilogram",
+					"synonyms": [
+						"force kilograms"
+					]
+				},
+				{
+					"value": "force gram",
+					"synonyms": [
+						"force grams"
+					]
+				},
+				{
+					"value": "force metric ton",
+					"synonyms": [
+						"force metric tons"
+					]
+				},
+				{
+					"value": "atomic unit of force",
+					"synonyms": [
+						"atomic unit of forces"
+					]
+				},
+				{
+					"value": "joule",
+					"synonyms": [
+						"joules"
+					]
+				},
+				{
+					"value": "erg",
+					"synonyms": [
+						"ergs"
+					]
+				},
+				{
+					"value": "watt hour",
+					"synonyms": [
+						"watt hours"
+					]
+				},
+				{
+					"value": "electron volt",
+					"synonyms": [
+						"electron volts"
+					]
+				},
+				{
+					"value": "rydberg",
+					"synonyms": [
+						"rydbergs"
+					]
+				},
+				{
+					"value": "hartree",
+					"synonyms": [
+						"hartrees"
+					]
+				},
+				{
+					"value": "calorie",
+					"synonyms": [
+						"calories"
+					]
+				},
+				{
+					"value": "international calorie",
+					"synonyms": [
+						"international calories"
+					]
+				},
+				{
+					"value": "fifteen degree calorie",
+					"synonyms": [
+						"fifteen degree calories"
+					]
+				},
+				{
+					"value": "british thermal unit",
+					"synonyms": [
+						"british thermal units"
+					]
+				},
+				{
+					"value": "international british thermal unit",
+					"synonyms": [
+						"international british thermal units"
+					]
+				},
+				{
+					"value": "thermochemical british thermal unit",
+					"synonyms": [
+						"thermochemical british thermal units"
+					]
+				},
+				{
+					"value": "quadrillion Btu",
+					"synonyms": [
+						"quadrillion Btus"
+					]
+				},
+				{
+					"value": "therm",
+					"synonyms": [
+						"therms"
+					]
+				},
+				{
+					"value": "US therm",
+					"synonyms": [
+						"US therms"
+					]
+				},
+				{
+					"value": "ton TNT",
+					"synonyms": [
+						"ton TNTs"
+					]
+				},
+				{
+					"value": "tonne of oil equivalent",
+					"synonyms": [
+						"tonne of oil equivalents"
+					]
+				},
+				{
+					"value": "atmosphere liter",
+					"synonyms": [
+						"atmosphere liters",
+						"atmosphere litres"
+					]
+				},
+				{
+					"value": "watt",
+					"synonyms": [
+						"watts"
+					]
+				},
+				{
+					"value": "volt ampere",
+					"synonyms": [
+						"volt amperes"
+					]
+				},
+				{
+					"value": "horsepower"
+				},
+				{
+					"value": "boiler horsepower"
+				},
+				{
+					"value": "metric horsepower"
+				},
+				{
+					"value": "electrical horsepower"
+				},
+				{
+					"value": "refrigeration ton",
+					"synonyms": [
+						"refrigeration tons"
+					]
+				},
+				{
+					"value": "standard liter per minute",
+					"synonyms": [
+						"standard litre per minute"
+					]
+				},
+				{
+					"value": "mercury"
+				},
+				{
+					"value": "water"
+				},
+				{
+					"value": "pascal",
+					"synonyms": [
+						"pascals"
+					]
+				},
+				{
+					"value": "barye",
+					"synonyms": [
+						"baryes"
+					]
+				},
+				{
+					"value": "bar",
+					"synonyms": [
+						"bars"
+					]
+				},
+				{
+					"value": "technical atmosphere",
+					"synonyms": [
+						"technical atmospheres"
+					]
+				},
+				{
+					"value": "torr",
+					"synonyms": [
+						"torrs"
+					]
+				},
+				{
+					"value": "pound force per square inch",
+					"synonyms": [
+						"PSI",
+						"pounds per square inch"
+					]
+				},
+				{
+					"value": "kip per square inch"
+				},
+				{
+					"value": "millimeter Hg",
+					"synonyms": [
+						"millimeter of mercury"
+					]
+				},
+				{
+					"value": "centimeter Hg",
+					"synonyms": [
+						"centimeter of mercury"
+					]
+				},
+				{
+					"value": "inch Hg",
+					"synonyms": [
+						"inch mercury",
+						"inches of mercury"
+					]
+				},
+				{
+					"value": "sound pressure level",
+					"synonyms": [
+						"sound pressure levels"
+					]
+				},
+				{
+					"value": "foot pound",
+					"synonyms": [
+						"foot pounds"
+					]
+				},
+				{
+					"value": "poise",
+					"synonyms": [
+						"poises"
+					]
+				},
+				{
+					"value": "reyn",
+					"synonyms": [
+						"reyns"
+					]
+				},
+				{
+					"value": "stokes",
+					"synonyms": [
+						"stokess"
+					]
+				},
+				{
+					"value": "rhe",
+					"synonyms": [
+						"rhes"
+					]
+				},
+				{
+					"value": "particle",
+					"synonyms": [
+						"particles"
+					]
+				},
+				{
+					"value": "molar",
+					"synonyms": [
+						"molars"
+					]
+				},
+				{
+					"value": "katal",
+					"synonyms": [
+						"katals"
+					]
+				},
+				{
+					"value": "enzyme unit",
+					"synonyms": [
+						"enzyme units"
+					]
+				},
+				{
+					"value": "clausius"
+				},
+				{
+					"value": "entropy unit",
+					"synonyms": [
+						"entropy units"
+					]
+				},
+				{
+					"value": "becquerel",
+					"synonyms": [
+						"becquerels"
+					]
+				},
+				{
+					"value": "curie",
+					"synonyms": [
+						"curies"
+					]
+				},
+				{
+					"value": "rutherford",
+					"synonyms": [
+						"rutherfords"
+					]
+				},
+				{
+					"value": "gray",
+					"synonyms": [
+						"grays"
+					]
+				},
+				{
+					"value": "sievert",
+					"synonyms": [
+						"sieverts"
+					]
+				},
+				{
+					"value": "rads",
+					"synonyms": [
+						"radss"
+					]
+				},
+				{
+					"value": "rem",
+					"synonyms": [
+						"rems"
+					]
+				},
+				{
+					"value": "roentgen",
+					"synonyms": [
+						"roentgens"
+					]
+				},
+				{
+					"value": "peak sun hour",
+					"synonyms": [
+						"peak sun hours"
+					]
+				},
+				{
+					"value": "langley",
+					"synonyms": [
+						"langleys"
+					]
+				},
+				{
+					"value": "nit",
+					"synonyms": [
+						"nits"
+					]
+				},
+				{
+					"value": "stilb",
+					"synonyms": [
+						"stilbs"
+					]
+				},
+				{
+					"value": "lambert",
+					"synonyms": [
+						"lamberts"
+					]
+				},
+				{
+					"value": "lumen",
+					"synonyms": [
+						"lumens"
+					]
+				},
+				{
+					"value": "lux",
+					"synonyms": [
+						"luxs"
+					]
+				},
+				{
+					"value": "atomic unit of intensity",
+					"synonyms": [
+						"atomic unit of intensitys"
+					]
+				},
+				{
+					"value": "biot",
+					"synonyms": [
+						"biots"
+					]
+				},
+				{
+					"value": "ab ampere",
+					"synonyms": [
+						"ab amperes"
+					]
+				},
+				{
+					"value": "atomic unit of current"
+				},
+				{
+					"value": "mean international ampere",
+					"synonyms": [
+						"mean international amperes"
+					]
+				},
+				{
+					"value": "US international ampere",
+					"synonyms": [
+						"US international amperes"
+					]
+				},
+				{
+					"value": "coulomb",
+					"synonyms": [
+						"coulombs"
+					]
+				},
+				{
+					"value": "ab coulomb",
+					"synonyms": [
+						"ab coulombs"
+					]
+				},
+				{
+					"value": "faraday",
+					"synonyms": [
+						"faradays"
+					]
+				},
+				{
+					"value": "volt",
+					"synonyms": [
+						"volts"
+					]
+				},
+				{
+					"value": "abvolt",
+					"synonyms": [
+						"ab volts"
+					]
+				},
+				{
+					"value": "mean international volt",
+					"synonyms": [
+						"mean international volts"
+					]
+				},
+				{
+					"value": "US international volt",
+					"synonyms": [
+						"US international volts"
+					]
+				},
+				{
+					"value": "atomic unit of electric field",
+					"synonyms": [
+						"atomic unit of electric fields"
+					]
+				},
+				{
+					"value": "ohm",
+					"synonyms": [
+						"ohms"
+					]
+				},
+				{
+					"value": "abohm",
+					"synonyms": [
+						"ab ohms"
+					]
+				},
+				{
+					"value": "mean international ohm",
+					"synonyms": [
+						"mean international ohms"
+					]
+				},
+				{
+					"value": "US international ohm",
+					"synonyms": [
+						"US international ohms"
+					]
+				},
+				{
+					"value": "resistivity",
+					"synonyms": [
+						"resistivitys"
+					]
+				},
+				{
+					"value": "siemens",
+					"synonyms": [
+						"siemenss"
+					]
+				},
+				{
+					"value": "absiemens",
+					"synonyms": [
+						"ab siemenss"
+					]
+				},
+				{
+					"value": "farad",
+					"synonyms": [
+						"farads"
+					]
+				},
+				{
+					"value": "abfarad",
+					"synonyms": [
+						"ab farads"
+					]
+				},
+				{
+					"value": "henry",
+					"synonyms": [
+						"henrys"
+					]
+				},
+				{
+					"value": "abhenry",
+					"synonyms": [
+						"ab henrys"
+					]
+				},
+				{
+					"value": "weber",
+					"synonyms": [
+						"webers"
+					]
+				},
+				{
+					"value": "unit pole",
+					"synonyms": [
+						"unit poles"
+					]
+				},
+				{
+					"value": "tesla",
+					"synonyms": [
+						"teslas"
+					]
+				},
+				{
+					"value": "gamma",
+					"synonyms": [
+						"gammas"
+					]
+				},
+				{
+					"value": "ampere turn",
+					"synonyms": [
+						"ampere turns"
+					]
+				},
+				{
+					"value": "biot turn",
+					"synonyms": [
+						"biot turns"
+					]
+				},
+				{
+					"value": "gilbert",
+					"synonyms": [
+						"gilberts"
+					]
+				},
+				{
+					"value": "debye",
+					"synonyms": [
+						"debyes"
+					]
+				},
+				{
+					"value": "buckingham",
+					"synonyms": [
+						"buckinghams"
+					]
+				},
+				{
+					"value": "bohr magneton",
+					"synonyms": [
+						"bohr magnetons"
+					]
+				},
+				{
+					"value": "nuclear magneton",
+					"synonyms": [
+						"nuclear magnetons"
+					]
+				},
+				{
+					"value": "thou"
+				},
+				{
+					"value": "inch",
+					"synonyms": [
+						"inches"
+					]
+				},
+				{
+					"value": "hand",
+					"synonyms": [
+						"hands"
+					]
+				},
+				{
+					"value": "foot",
+					"synonyms": [
+						"feet"
+					]
+				},
+				{
+					"value": "yard",
+					"synonyms": [
+						"yards"
+					]
+				},
+				{
+					"value": "mile",
+					"synonyms": [
+						"miles"
+					]
+				},
+				{
+					"value": "circular mil",
+					"synonyms": [
+						"circular mils"
+					]
+				},
+				{
+					"value": "square inch",
+					"synonyms": [
+						"square inches"
+					]
+				},
+				{
+					"value": "square foot",
+					"synonyms": [
+						"square feet"
+					]
+				},
+				{
+					"value": "square yard",
+					"synonyms": [
+						"square yards"
+					]
+				},
+				{
+					"value": "square mile",
+					"synonyms": [
+						"square miles"
+					]
+				},
+				{
+					"value": "cubic inch",
+					"synonyms": [
+						"cubic inches"
+					]
+				},
+				{
+					"value": "cubic foot",
+					"synonyms": [
+						"cubic feet"
+					]
+				},
+				{
+					"value": "cubic yard",
+					"synonyms": [
+						"cubic yards"
+					]
+				},
+				{
+					"value": "link",
+					"synonyms": [
+						"links"
+					]
+				},
+				{
+					"value": "survey foot",
+					"synonyms": [
+						"survey foots"
+					]
+				},
+				{
+					"value": "fathom",
+					"synonyms": [
+						"fathoms"
+					]
+				},
+				{
+					"value": "rod",
+					"synonyms": [
+						"rods"
+					]
+				},
+				{
+					"value": "chain",
+					"synonyms": [
+						"chains"
+					]
+				},
+				{
+					"value": "furlong",
+					"synonyms": [
+						"furlongs"
+					]
+				},
+				{
+					"value": "cables length",
+					"synonyms": [
+						"cables lengths"
+					]
+				},
+				{
+					"value": "survey mile",
+					"synonyms": [
+						"survey miles"
+					]
+				},
+				{
+					"value": "league",
+					"synonyms": [
+						"leagues"
+					]
+				},
+				{
+					"value": "square rod",
+					"synonyms": [
+						"square rods"
+					]
+				},
+				{
+					"value": "acre",
+					"synonyms": [
+						"acres"
+					]
+				},
+				{
+					"value": "square survey_mile",
+					"synonyms": [
+						"square survey_miles"
+					]
+				},
+				{
+					"value": "square league",
+					"synonyms": [
+						"square leagues"
+					]
+				},
+				{
+					"value": "acre foot",
+					"synonyms": [
+						"acre feet"
+					]
+				},
+				{
+					"value": "dry pint",
+					"synonyms": [
+						"dry pints"
+					]
+				},
+				{
+					"value": "dry quart",
+					"synonyms": [
+						"dry quarts"
+					]
+				},
+				{
+					"value": "dry gallon",
+					"synonyms": [
+						"dry gallons"
+					]
+				},
+				{
+					"value": "peck",
+					"synonyms": [
+						"pecks"
+					]
+				},
+				{
+					"value": "bushel",
+					"synonyms": [
+						"bushels"
+					]
+				},
+				{
+					"value": "dry barrel",
+					"synonyms": [
+						"dry barrels"
+					]
+				},
+				{
+					"value": "board foot",
+					"synonyms": [
+						"board foots"
+					]
+				},
+				{
+					"value": "minim",
+					"synonyms": [
+						"minims"
+					]
+				},
+				{
+					"value": "fluid dram",
+					"synonyms": [
+						"fluid drams"
+					]
+				},
+				{
+					"value": "fluid ounce",
+					"synonyms": [
+						"fluid ounces"
+					]
+				},
+				{
+					"value": "gill",
+					"synonyms": [
+						"gills"
+					]
+				},
+				{
+					"value": "pint",
+					"synonyms": [
+						"pints"
+					]
+				},
+				{
+					"value": "fifth",
+					"synonyms": [
+						"fifths"
+					]
+				},
+				{
+					"value": "quart",
+					"synonyms": [
+						"quarts"
+					]
+				},
+				{
+					"value": "gallon",
+					"synonyms": [
+						"gallons"
+					]
+				},
+				{
+					"value": "teaspoon",
+					"synonyms": [
+						"teaspoons"
+					]
+				},
+				{
+					"value": "tablespoon",
+					"synonyms": [
+						"tablespoons"
+					]
+				},
+				{
+					"value": "shot",
+					"synonyms": [
+						"shots"
+					]
+				},
+				{
+					"value": "cup",
+					"synonyms": [
+						"cups"
+					]
+				},
+				{
+					"value": "barrel",
+					"synonyms": [
+						"barrels"
+					]
+				},
+				{
+					"value": "oil barrel",
+					"synonyms": [
+						"oil barrels"
+					]
+				},
+				{
+					"value": "beer barrel",
+					"synonyms": [
+						"beer barrels"
+					]
+				},
+				{
+					"value": "hogshead",
+					"synonyms": [
+						"hogsheads"
+					]
+				},
+				{
+					"value": "dram",
+					"synonyms": [
+						"drams"
+					]
+				},
+				{
+					"value": "ounce",
+					"synonyms": [
+						"ounces"
+					]
+				},
+				{
+					"value": "pound",
+					"synonyms": [
+						"pounds"
+					]
+				},
+				{
+					"value": "stone"
+				},
+				{
+					"value": "quarter",
+					"synonyms": [
+						"quarters"
+					]
+				},
+				{
+					"value": "bag",
+					"synonyms": [
+						"bags"
+					]
+				},
+				{
+					"value": "hundred weight",
+					"synonyms": [
+						"hundred weights"
+					]
+				},
+				{
+					"value": "long hundred weight",
+					"synonyms": [
+						"long hundred weights"
+					]
+				},
+				{
+					"value": "ton",
+					"synonyms": [
+						"tons"
+					]
+				},
+				{
+					"value": "long ton",
+					"synonyms": [
+						"long tons"
+					]
+				},
+				{
+					"value": "slug",
+					"synonyms": [
+						"slugs"
+					]
+				},
+				{
+					"value": "slinch",
+					"synonyms": [
+						"slinches"
+					]
+				},
+				{
+					"value": "force ounce",
+					"synonyms": [
+						"force ounces"
+					]
+				},
+				{
+					"value": "force pound",
+					"synonyms": [
+						"force pounds"
+					]
+				},
+				{
+					"value": "force ton",
+					"synonyms": [
+						"force tons"
+					]
+				},
+				{
+					"value": "force long ton",
+					"synonyms": [
+						"force long tons"
+					]
+				},
+				{
+					"value": "kip",
+					"synonyms": [
+						"kips"
+					]
+				},
+				{
+					"value": "poundal",
+					"synonyms": [
+						"poundals"
+					]
+				},
+				{
+					"value": "UK hundred weight",
+					"synonyms": [
+						"UK hundred weights"
+					]
+				},
+				{
+					"value": "UK ton",
+					"synonyms": [
+						"UK tons"
+					]
+				},
+				{
+					"value": "UK force ton",
+					"synonyms": [
+						"UK force tons"
+					]
+				},
+				{
+					"value": "US hundred weight",
+					"synonyms": [
+						"US hundred weights"
+					]
+				},
+				{
+					"value": "US ton",
+					"synonyms": [
+						"US tons"
+					]
+				},
+				{
+					"value": "US force ton",
+					"synonyms": [
+						"US force tons"
+					]
+				},
+				{
+					"value": "pennyweight",
+					"synonyms": [
+						"pennyweights"
+					]
+				},
+				{
+					"value": "troy ounce",
+					"synonyms": [
+						"troy ounces"
+					]
+				},
+				{
+					"value": "troy pound",
+					"synonyms": [
+						"troy pounds"
+					]
+				},
+				{
+					"value": "scruple",
+					"synonyms": [
+						"scruples"
+					]
+				},
+				{
+					"value": "apothecary dram",
+					"synonyms": [
+						"apothecary drams"
+					]
+				},
+				{
+					"value": "apothecary ounce",
+					"synonyms": [
+						"apothecary ounces"
+					]
+				},
+				{
+					"value": "apothecary pound",
+					"synonyms": [
+						"apothecary pounds"
+					]
+				},
+				{
+					"value": "imperial minim",
+					"synonyms": [
+						"imperial minims"
+					]
+				},
+				{
+					"value": "imperial fluid scruple",
+					"synonyms": [
+						"imperial fluid scruples"
+					]
+				},
+				{
+					"value": "imperial fluid drachm",
+					"synonyms": [
+						"imperial fluid drachms"
+					]
+				},
+				{
+					"value": "imperial fluid ounce",
+					"synonyms": [
+						"imperial fluid ounces"
+					]
+				},
+				{
+					"value": "imperial gill",
+					"synonyms": [
+						"imperial gills"
+					]
+				},
+				{
+					"value": "imperial cup",
+					"synonyms": [
+						"imperial cups"
+					]
+				},
+				{
+					"value": "imperial pint",
+					"synonyms": [
+						"imperial pints"
+					]
+				},
+				{
+					"value": "imperial quart",
+					"synonyms": [
+						"imperial quarts"
+					]
+				},
+				{
+					"value": "imperial gallon",
+					"synonyms": [
+						"imperial gallons"
+					]
+				},
+				{
+					"value": "imperial peck",
+					"synonyms": [
+						"imperial pecks"
+					]
+				},
+				{
+					"value": "imperial bushel",
+					"synonyms": [
+						"imperial bushels"
+					]
+				},
+				{
+					"value": "imperial barrel",
+					"synonyms": [
+						"imperial barrels"
+					]
+				},
+				{
+					"value": "pica",
+					"synonyms": [
+						"picas"
+					]
+				},
+				{
+					"value": "point",
+					"synonyms": [
+						"points"
+					]
+				},
+				{
+					"value": "didot",
+					"synonyms": [
+						"didots"
+					]
+				},
+				{
+					"value": "cicero",
+					"synonyms": [
+						"ciceros"
+					]
+				},
+				{
+					"value": "tex point",
+					"synonyms": [
+						"tex points"
+					]
+				},
+				{
+					"value": "tex pica",
+					"synonyms": [
+						"tex picas"
+					]
+				},
+				{
+					"value": "tex didot",
+					"synonyms": [
+						"tex didots"
+					]
+				},
+				{
+					"value": "tex cicero",
+					"synonyms": [
+						"tex ciceros"
+					]
+				},
+				{
+					"value": "scaled point",
+					"synonyms": [
+						"scaled points"
+					]
+				},
+				{
+					"value": "css pixel",
+					"synonyms": [
+						"css pixels"
+					]
+				},
+				{
+					"value": "pixel",
+					"synonyms": [
+						"pixels"
+					]
+				},
+				{
+					"value": "pixels per centimeter",
+					"synonyms": [
+						"pixels per centimeters"
+					]
+				},
+				{
+					"value": "pixels per inch",
+					"synonyms": [
+						"pixels per inches"
+					]
+				},
+				{
+					"value": "bits per pixel",
+					"synonyms": [
+						"bits per pixels"
+					]
+				},
+				{
+					"value": "tex",
+					"synonyms": [
+						"texs"
+					]
+				},
+				{
+					"value": "dtex",
+					"synonyms": [
+						"dtexs"
+					]
+				},
+				{
+					"value": "denier",
+					"synonyms": [
+						"deniers"
+					]
+				},
+				{
+					"value": "jute",
+					"synonyms": [
+						"jutes"
+					]
+				},
+				{
+					"value": "aberdeen",
+					"synonyms": [
+						"aberdeens"
+					]
+				},
+				{
+					"value": "RKM",
+					"synonyms": [
+						"RKMs"
+					]
+				},
+				{
+					"value": "number english",
+					"synonyms": [
+						"number englishs"
+					]
+				},
+				{
+					"value": "number meter",
+					"synonyms": [
+						"number meters"
+					]
+				},
+				{
+					"value": "franklin",
+					"synonyms": [
+						"franklins"
+					]
+				},
+				{
+					"value": "statvolt",
+					"synonyms": [
+						"statvolts"
+					]
+				},
+				{
+					"value": "statampere",
+					"synonyms": [
+						"statamperes"
+					]
+				},
+				{
+					"value": "gauss",
+					"synonyms": [
+						"gausss"
+					]
+				},
+				{
+					"value": "maxwell",
+					"synonyms": [
+						"maxwells"
+					]
+				},
+				{
+					"value": "oersted",
+					"synonyms": [
+						"oersteds"
+					]
+				},
+				{
+					"value": "statohm",
+					"synonyms": [
+						"statohms"
+					]
+				},
+				{
+					"value": "statfarad",
+					"synonyms": [
+						"statfarads"
+					]
+				},
+				{
+					"value": "statmho",
+					"synonyms": [
+						"statmhos"
+					]
+				},
+				{
+					"value": "second",
+					"synonyms": [
+						"seconds"
+					]
+				},
+				{
+					"value": "meter",
+					"synonyms": [
+						"meters"
+					]
+				},
+				{
+					"value": "kilogram",
+					"synonyms": [
+						"kilograms"
+					]
+				},
+				{
+					"value": "ampere",
+					"synonyms": [
+						"amperes"
+					]
+				},
+				{
+					"value": "kelvin",
+					"synonyms": [
+						"kelvins"
+					]
+				},
+				{
+					"value": "mole",
+					"synonyms": [
+						"moles"
+					]
+				},
+				{
+					"value": "candela",
+					"synonyms": [
+						"candelas"
+					]
+				}
+			]
+		}
+	],
+	"intents": [
+		{
+			"name": "convertUnit",
+			"enabledByDefault": true,
+			"utterances": [
+				"Convert {10:=>UnitNumber} {millimeters:=>FirstUnit} to {centimeters:=>SecondUnit}",
+				"what is {100:=>UnitNumber} {kilometers:=>FirstUnit} in {miles:=>SecondUnit}",
+				"what's {94:=>UnitNumber} {kilometers:=>FirstUnit} in {miles:=>SecondUnit}",
+				"Convert {2:=>UnitNumber} {millimeters:=>FirstUnit} into {centimeters:=>SecondUnit}",
+				"Convert {3:=>UnitNumber} {pounds:=>FirstUnit} into {kilograms:=>SecondUnit}",
+				"What is {30:=>UnitNumber} degree {celsius:=>FirstUnit} in {f:=>SecondUnit}",
+				"What's {30:=>UnitNumber} degrees {celsius:=>FirstUnit} in {f:=>SecondUnit}",
+				"Convert {30:=>UnitNumber} degrees {Celsius:=>FirstUnit} to {Fahrenheit:=>SecondUnit}",
+				"Convert {100:=>UnitNumber} degrees {C:=>FirstUnit} to {F:=>SecondUnit}"
+			],
+			"slots": [
+				{
+					"name": "FirstUnit",
+					"required": false,
+					"type": "Unit",
+					"missingQuestion": ""
+				},
+				{
+					"name": "SecondUnit",
+					"required": false,
+					"type": "Unit",
+					"missingQuestion": ""
+				},
+				{
+					"name": "UnitNumber",
+					"required": false,
+					"type": "snips/number",
+					"missingQuestion": ""
+				}
+			]
+		},
+		{
+			"name": "compareUnit",
+			"enabledByDefault": true,
+			"utterances": [
+				"how many {teaspoons:=>FirstUnit} in a {tablespoon:=>SecondUnit}"
+			],
+			"slots": [
+				{
+					"name": "FirstUnit",
+					"required": false,
+					"type": "Unit",
+					"missingQuestion": ""
+				},
+				{
+					"name": "SecondUnit",
+					"required": false,
+					"type": "Unit",
+					"missingQuestion": ""
+				}
+			]
+		},
+		{
+			"name": "informGasMark",
+			"enabledByDefault": true,
+			"utterances": [
+				"What is the oven {gas mark:=>GasMark} for {10:=>Number} degrees {fahrenheit:=>TemperatureType} please",
+				"Convert {425:=>Number} {fahrenheit:=>TemperatureType} to oven {gas mark:=>GasMark} please",
+				"What's {350:=>Number} {celsius:=>TemperatureType} in oven {Gas Mark:=>GasMark} thanks ",
+				"Convert {32:=>Number} C to oven {gas Mark:=>GasMark} please",
+				"Please convert {280:=>Number} degrees {celsius:=>TemperatureType} into oven {gas:=>GasMark}",
+				"{304:=>Number} {fahrenheit:=>TemperatureType} is what in oven {gas mark:=>GasMark}",
+				"what is {170:=>Number} degrees {fahrenheit:=>TemperatureType} in oven {gas:=>GasMark} please",
+				"What is {250:=>Number} {F:=>TemperatureType} in oven {gas mark:=>GasMark}",
+				"What is {140:=>Number} {C:=>TemperatureType} in oven {gas mark:=>GasMark}",
+				"what oven {gas Mark:=>GasMark} is {99:=>Number} degrees {fahrenheit:=>TemperatureType}",
+				"what oven {gas mark:=>GasMark} is {425:=>Number} degrees {celsius:=>TemperatureType}"
+			],
+			"slots": [
+				{
+					"name": "GasMark",
+					"required": false,
+					"type": "Unit",
+					"missingQuestion": ""
+				},
+				{
+					"name": "TemperatureType",
+					"required": false,
+					"type": "Unit",
+					"missingQuestion": ""
+				},
+				{
+					"name": "Number",
+					"required": false,
+					"type": "snips/number",
+					"missingQuestion": ""
+				}
+			]
+		}
+	]
+}

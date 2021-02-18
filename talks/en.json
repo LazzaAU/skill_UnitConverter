@@ -1,0 +1,35 @@
+{
+	"respondTemperature": [
+		"In {1} that would be {0} degrees",
+		"That converts to {0} degrees {1}",
+		"Temperature in {1} would be {0} degrees",
+		"That's equivalent to {0} degrees {1}",
+		"{0} degrees F is the answer your looking for ",
+		"That would be {0} degrees {1}"
+	],
+	"respondGasMark": [
+		"Yes chef. what you're after is gas mark {}",
+		"That converts to gas mark {} ",
+		"You can try gas mark 10 but you'll burn your food. what you really want is gas mark {}",
+		"Hi chef. Set the oven to gas mark {} and you'll be all sorted",
+		"Gas mark {} is the answer your looking for ",
+		"That would be gas mark {} . Happy cooking chef",
+		"Dial a pizza number is 0 800. Umm whoops sorry. You're after gas mark {}. bon appetit"
+	],
+  "respondNoIdea": [
+	"Sorry but i didn't hear a number, please try again but include the temperature and if its celsius or fahrenheit",
+	"Try again but make sure you say a number and temperature type. Example. 50 degrees Celsius or 90 degrees fahrenheit"
+
+  ],
+  "respondOutOfRange": [
+	"Sorry but oven gas mark levels start at 130 degrees Celcius or 275 degrees fahrenheit, try again",
+	"That temperature seems outside of the range for gas mark levels. Please try again"
+
+  ],
+  "respondAboveRange": [
+	"That's too high of a temperature for a gas oven. What are you cooking, charcoal ?",
+	"What are you, a blacksmith ? That temperature is too high for a domestic gas mark oven",
+	"That's good if your blowing glass. However it's too high for a gas mark oven. Stick it on gas mark 9 and wait "
+
+  ]
+}
