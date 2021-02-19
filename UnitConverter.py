@@ -1,3 +1,4 @@
+
 import pint
 from core.base.model.AliceSkill import AliceSkill
 from core.dialog.model.DialogSession import DialogSession
@@ -66,7 +67,7 @@ class UnitConverter(AliceSkill):
 			if convertedValue == 'cancel':
 				self.endDialog(
 					sessionId=session.sessionId,
-					text=f'You can\'t convert between a {dimension1} and a {dimension2}. It\'s that whole comparing between apples and pears thing, just doesn\'t work',
+					text=self.randomTalk(text="dialogMessage1", replace=[dimension1,dimension2 ]),
 					deviceUid=session.deviceUid)
 				return
 
@@ -78,10 +79,9 @@ class UnitConverter(AliceSkill):
 			self.replyWithResults(session=session, answer=answer)
 
 		except:
-			self.logError(f"An error occured. Please check my logs")
 			self.endDialog(
 				sessionId=session.sessionId,
-				text=f"An error occured. Please check my logs",
+				text=self.randomTalk(text='dialogMessage3'),
 				deviceUid=session.deviceUid
 			)
 
@@ -261,7 +261,7 @@ class UnitConverter(AliceSkill):
 
 			self.endDialog(
 				sessionId=session.sessionId,
-				text=f"Sorry but I require two different units to compare",
+				text=self.randomTalk(text='dialogMessage4'),
 				deviceUid=session.deviceUid
 			)
 			return True
