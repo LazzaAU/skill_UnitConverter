@@ -1,7 +1,7 @@
 {
     "name": "UnitConverter",
     "speakableName": "unit converter",
-    "version": "1.0.15",
+    "version": "1.0.0",
     "icon": "fas fa-temperature-high",
     "category": "information",
     "author": "Lazza",
@@ -9,7 +9,7 @@
         "Psycho",
         "Phillipp"
     ],
-    "desc": "Convert temperature between F and C and other units like meters to miles etc. Also convert temperature to oven gas mark",
+    "desc": "Convert temperature between F and C and other units like meters to miles etc. Also converts temperature to oven gas mark",
     "aliceMinVersion": "1.0.0-b3",
     "systemRequirements": [
         ""

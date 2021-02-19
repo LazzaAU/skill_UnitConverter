@@ -34,9 +34,8 @@ class UnitConverter(AliceSkill):
 		:param session: The dialog session
 		:return:
 		"""
-		# failsafe just in case tis method catches a gasmark request
+		# failsafe just in case this method catches a gasmark request
 		if 'GasMark' in session.slots and 'TemperatureType' in session.slots:
-			# self.gasMarkIntent(session=session)
 			return
 
 		# Check both units are specified for proper conversion
@@ -49,6 +48,7 @@ class UnitConverter(AliceSkill):
 
 		firstUnit, secondUnit = self.firstAndSecondUnits(session=session)
 
+		# Get Raw value to dodge the need to convert to plurals from pints naming scheme
 		rawFirstUnit: str = session.slotRawValue('FirstUnit')
 		rawSecondUnit: str = session.slotRawValue('SecondUnit')
 
@@ -90,7 +90,7 @@ class UnitConverter(AliceSkill):
 	def gasMarkIntent(self, session):
 		"""
 		Get the gas mark level for ovens
-		:param session: the dialog session
+		:param session: The dialog session
 		:return:
 		"""
 		if 'Number' not in session.slotsAsObjects:
@@ -99,8 +99,8 @@ class UnitConverter(AliceSkill):
 
 		# Spokeninput is the users requested temperature
 		spokenInput = session.slotValue('Number')
-		print(f"sessionslots gas mark {session.slots} and as objects is {session.slotsAsObjects}")
-		fahrenheitList = ['degF', 'Fahrenheit', 'f']
+
+		fahrenheitList = ['degF', 'Fahrenheit', 'f', 'F']
 		if session.slotValue('TemperatureType') in fahrenheitList:
 			spokenInput = self.convertToCelsius(spokenInput)
 
@@ -150,9 +150,6 @@ class UnitConverter(AliceSkill):
 		return firstUnit, secondUnit
 
 
-	# return local var for unit testing reasons
-	# return correctGasMark
-
 	@staticmethod
 	def convertToFahrenheit(temperature: int) -> int:
 		return int((9 * temperature) / 5 + 32)
@@ -165,12 +162,17 @@ class UnitConverter(AliceSkill):
 
 	@staticmethod
 	def joinMultpileWords(stringg: str):
+		"""
+		Place the underscore back into the slot for re use with pint
+		:param stringg: the slot value
+		:return: stringg joined with a underscore if required
+		"""
 		return stringg.replace(" ", "_")
 
 
 	def checkIfTemperatureRequest(self, session, firstUnit, requestedNumber) -> bool:
 		"""
-		Process the Temperature request as the procedure is a little different than a normal conversion
+		Processes a temperature request as the procedure is a little different than a normal conversion
 		:param session: The dialog session
 		:param firstUnit: The first requested temperture Unit IE: celsius
 		:param requestedNumber: The second rquested temperature unit IE: Fahrenhiet
@@ -203,7 +205,7 @@ class UnitConverter(AliceSkill):
 
 	def returnCalulationResults(self, requestedNumber, firstUnit, secondUnit):
 		"""
-		Do conversion calculation and return required values
+		Do the conversion calculation and return required values
 		:param requestedNumber: The number requested from the user
 		:param firstUnit: The first unit the user spoke
 		:param secondUnit: The unit the user wants converted into
@@ -221,7 +223,6 @@ class UnitConverter(AliceSkill):
 
 		# Check if converted value is a whole number, adjust decimal places as required
 		convertedValue = self.isWhole(number=converterInstance(src).to(dst).magnitude)
-		print(f'should return a value {convertedValue}')
 		return convertedValue, converterInstance(src).dimensionality, converterInstance(dst).dimensionality
 
 
@@ -240,9 +241,8 @@ class UnitConverter(AliceSkill):
 		"""
 		Adjust decimal positions based on the converted value
 		:param number: The converted number
-		:return: modified value with required digit number
+		:return: Modified value with required decimal place
 		"""
-		print(f"decimals are {number % 1}")
 		if number % 1 == 0:
 			return int(number)
 		elif 0.01 <= number % 1 <= 0.09:
