@@ -9,7 +9,7 @@ except:
    # noinspection PyUnresolvedReferences
     from UnitConverter import UnitConverter
 
-class TestUnitConverter(TestCase):
+class TestUnitConverter(TestCase): # NOSONAR
 
     def test_convertBetweenUnits(self):
         pass # To be implemented or nothing to test()
