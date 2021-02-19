@@ -6,11 +6,9 @@
     "category": "information",
     "author": "Lazza",
     "maintainers": [
-        "Psycho",
-        "Phillipp"
     ],
     "desc": "Convert temperature between F and C and other units like meters to miles etc. Also converts temperature to oven gas mark",
-    "aliceMinVersion": "1.0.0-b3",
+    "aliceMinVersion": "1.0.0-b5",
     "systemRequirements": [
         ""
     ],
