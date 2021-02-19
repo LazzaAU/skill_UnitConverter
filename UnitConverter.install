@@ -15,7 +15,7 @@
         ""
     ],
     "pipRequirements": [
-        "pip3 install pint"
+        "pint"
     ],
     "conditions": {
         "lang": [
