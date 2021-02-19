@@ -14,7 +14,7 @@ Or what's 30 degrees celcius in fahrenheit ?
 
 or even 
 
-What's 170 degrees C in oven gas mark ?
+What's 170 degrees C in oven gas mark. ?
 
 ### Other Conversions
 
