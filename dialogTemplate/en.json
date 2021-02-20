@@ -680,13 +680,15 @@
 				{
 					"value": "kilometer per hour",
 					"synonyms": [
-						"kilometers per hour"
+						"kilometers per hour",
+						"kmph"
 					]
 				},
 				{
 					"value": "kilometer per second",
 					"synonyms": [
-						"kilometers per second"
+						"kilometers per second",
+						"kmps"
 					]
 				},
 				{

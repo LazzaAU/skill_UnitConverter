@@ -18,7 +18,7 @@ What's 170 degrees C in oven gas mark. ?
 
 ### Other Conversions
 
-Try some of the following as well...
+Try some of these utterances as well...
 
 - how many ounces in a gram
 

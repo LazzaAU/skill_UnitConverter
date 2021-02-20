@@ -47,7 +47,7 @@ class UnitConverter(AliceSkill):
 		if not requestedNumber:
 			requestedNumber = 1
 
-		firstUnit, secondUnit = self.firstAndSecondUnits(session=session)
+		firstUnit, secondUnit = self.setFirstAndSecondUnits(session=session)
 
 		# Get Raw value to dodge the need to convert to plurals from pints naming scheme
 		rawFirstUnit: str = session.slotRawValue('FirstUnit')
@@ -81,7 +81,7 @@ class UnitConverter(AliceSkill):
 		except:
 			self.endDialog(
 				sessionId=session.sessionId,
-				text=self.randomTalk(text='dialogMessage3'),
+				text=self.randomTalk(text='dialogMessage2'),
 				deviceUid=session.deviceUid
 			)
 
@@ -134,7 +134,7 @@ class UnitConverter(AliceSkill):
 		self.endDialog(session.sessionId, self.randomTalk(text='respondGasMark', replace=[correctGasMark]))
 
 
-	def firstAndSecondUnits(self, session):
+	def setFirstAndSecondUnits(self, session):
 		"""
 		Create the first and second units depepnding if it's a compare or a convert request
 		:param session: the dialog Session
