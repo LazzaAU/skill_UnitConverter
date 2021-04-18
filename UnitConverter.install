@@ -1,7 +1,7 @@
 {
     "name": "UnitConverter",
     "speakableName": "unit converter",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "icon": "fas fa-temperature-high",
     "category": "information",
     "author": "Lazza",
